@@ -1,6 +1,6 @@
 import { Currency, TrendingUp, Receipt, Target } from 'lucide-react';
-import { formatCurrency } from '../utils/formatCurrency';
-import type { Expense } from '../lib/supabase';
+import { formatCurrency } from './utils/formatCurrency';
+import type { Expense } from './lib/supabase';
 
 type DashboardCardsProps = {
   expenses: Expense[];

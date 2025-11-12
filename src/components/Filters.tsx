@@ -1,5 +1,5 @@
 import { Filter, ArrowUpDown } from 'lucide-react';
-import { DEFAULT_CATEGORIES } from '../data/categories';
+import { DEFAULT_CATEGORIES } from './data/categories';
 
 export type FilterOptions = {
   category: string;

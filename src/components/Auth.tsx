@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from './hooks/useAuth';
 import { LogIn, UserPlus } from 'lucide-react';
 
 export function Auth() {

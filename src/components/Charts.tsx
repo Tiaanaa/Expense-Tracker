@@ -11,8 +11,8 @@ import {
   ResponsiveContainer,
   Legend,
 } from 'recharts';
-import type { Expense } from '../lib/supabase';
-import { formatCurrency } from '../utils/formatCurrency';
+import type { Expense } from './lib/supabase';
+import { formatCurrency } from './utils/formatCurrency';
 
 type ChartsProps = {
   expenses: Expense[];

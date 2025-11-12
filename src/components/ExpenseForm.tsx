@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { X, DollarSign, Calendar, Tag, FileText } from 'lucide-react';
-import { DEFAULT_CATEGORIES } from '../data/categories';
-import type { Expense } from '../lib/supabase';
+import { DEFAULT_CATEGORIES } from './data/categories';
+import type { Expense } from './lib/supabase';
 
 type ExpenseFormProps = {
   onSubmit: (expense: Omit<Expense, 'id' | 'user_id' | 'created_at' | 'updated_at'>) => void;
