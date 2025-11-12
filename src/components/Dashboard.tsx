@@ -1,15 +1,15 @@
 import { useState, useMemo, useEffect } from 'react';
-import { useExpenses } from './hooks/useExpenses';
-import { DashboardCards } from '/DashboardCards';
-import { Charts } from '/Charts';
-import { Filters, type FilterOptions } from '/Filters';
-import { ExpenseForm } from '/ExpenseForm';
-import { ExpenseList } from '/ExpenseList';
-import { BudgetModal } from '/BudgetModal';
-import { Header } from '/Header';
-import type { Expense, Budget } from './lib/supabase';
-import { supabase } from '..lib/supabase';
-import { getMonthStart } from './utils/formatCurrency';
+import { useExpenses } from '../hooks/useExpenses';
+import { DashboardCards } from './DashboardCards';
+import { Charts } from './Charts';
+import { Filters, type FilterOptions } from './Filters';
+import { ExpenseForm } from './ExpenseForm';
+import { ExpenseList } from './ExpenseList';
+import { BudgetModal } from './BudgetModal';
+import { Header } from './Header';
+import type { Expense, Budget } from '../lib/supabase';
+import { supabase } from '../lib/supabase';
+import { getMonthStart } from '../utils/formatCurrency';
 
 type DashboardProps = {
   userId: string;

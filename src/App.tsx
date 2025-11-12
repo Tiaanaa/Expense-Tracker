@@ -1,7 +1,7 @@
-import { useAuth } from '/hooks/useAuth';
+import { useAuth } from './hooks/useAuth';
 import { useTheme } from './hooks/useTheme';
-import { Auth } from '/components/Auth';
-import { Dashboard } from '/components/Dashboard';
+import { Auth } from './components/Auth';
+import { Dashboard } from './components/Dashboard';
 
 function App() {
   const { user, loading } = useAuth();

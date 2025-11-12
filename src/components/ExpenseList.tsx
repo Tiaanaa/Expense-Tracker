@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Edit2, Trash2, Repeat } from 'lucide-react';
-import { formatCurrency, formatDate } from './utils/formatCurrency';
-import type { Expense } from './lib/supabase';
-import { DEFAULT_CATEGORIES } from './data/categories';
+import { formatCurrency, formatDate } from '../utils/formatCurrency';
+import type { Expense } from '../lib/supabase';
+import { DEFAULT_CATEGORIES } from '../data/categories';
 
 type ExpenseListProps = {
   expenses: Expense[];

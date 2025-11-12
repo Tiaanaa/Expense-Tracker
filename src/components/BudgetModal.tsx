@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { X, Target } from 'lucide-react';
-import { supabase, type Budget } from './lib/supabase';
-import { getMonthStart, formatMonthYear } from './utils/formatCurrency';
+import { supabase, type Budget } from '../lib/supabase';
+import { getMonthStart, formatMonthYear } from '../utils/formatCurrency';
 
 type BudgetModalProps = {
   userId: string;

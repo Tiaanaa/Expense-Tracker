@@ -1,5 +1,5 @@
 import { Sun, Moon, LogOut, Target, Plus, Wallet } from 'lucide-react';
-import { useAuth } from './hooks/useAuth';
+import { useAuth } from '../hooks/useAuth';
 
 type HeaderProps = {
   theme: 'light' | 'dark';
